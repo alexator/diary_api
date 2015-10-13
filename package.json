@@ -1,0 +1,33 @@
+{
+  "name": "my_diary",
+  "version": "0.8.0",
+  "description": "My Diary Web API",
+  "engines": {
+    "node": "0.10.35",
+    "npm": "2.3.x"
+  },
+  "main": "./src/server/server.js",
+  "scripts": {
+    "start": "node ./src/server/server.js"
+  },
+  "keywords": [
+    "diary"
+  ],
+  "author": "Alexandros Georgantas",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.2",
+    "body-parser": "latest",
+    "compression": "latest",
+    "express": "latest",
+    "jsonwebtoken": "^5.4.0",
+    "method-override": "latest",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "node-geocoder": "^3.4.0",
+    "passport": "latest",
+    "passport-local": "latest",
+    "underscore": "^1.8.3",
+    "util": "^0.10.3"
+  }
+}
